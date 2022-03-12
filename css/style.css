@@ -58,20 +58,7 @@ body {
     color: #555;
 }
 
-.hero {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-column-gap: 9.6rem;
-    max-width: 130rem;
-    margin: 0 auto;
-    align-items: center;
-    padding: 9.6rem 0;
-}
-
-.section-hero {
-    background-color: #fdf2e9;
-}
-
+/* General Styles */
 .heading-primary {
     font-size: 5.2rem;
     font-weight: 700;
@@ -79,16 +66,6 @@ body {
     line-height: .9;
     letter-spacing: -1.5px;
     margin-bottom: 3.2rem;
-}
-
-.hero-description {
-    font-size: 2rem;
-    line-height: 1.5;
-    margin-bottom: 4.8rem;
-}
-
-.hero-img {
-    width: 100%;
 }
 
 .btn:link, .btn:visited {
@@ -122,21 +99,81 @@ body {
     box-shadow: inset 0 0 0 3px #fff;
 }
 
-.meals-delivered {
+.margin-right-sm {
+    margin-right: 1.6rem;
+}
+
+/* Nav */
+.logo img {
+    height: 2.2rem;
+    margin-right: auto;
+}
+
+.header {
     display: flex;
-    margin-top: 4.8rem;
-    align-items: center;
     justify-content: space-between;
+    align-items: center;
+    padding: 2.4rem 4.8rem;
+    background: #fdf2e9;
+}
+
+.nav-items {
+    display: flex;
+    list-style: none;
+    gap: 4.8rem;
+}
+
+.nav-item a {
+    text-decoration: none;
+    font-size: 2rem;
+    color: #555;
+    font-weight: 500;
+}
+
+/* Hero Section */
+.hero {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 9.6rem;
+    max-width: 130rem;
+    margin: 0 auto;
+    align-items: center;
+    padding: 4.8rem 3.2rem 9.6rem 3.2rem;
+}
+
+.section-hero {
+    background-color: #fdf2e9;
 }
 
 
-.customer {
+.hero-description {
+    font-size: 2rem;
+    line-height: 1.5;
+    margin-bottom: 4.8rem;
+}
+
+.hero-img {
+    width: 100%;
+}
+
+
+.meals-delivered {
+    display: flex;
+    margin-top: 8rem;
+    align-items: center;
+    gap: 1.6rem;
+}
+
+.hero-customers img {
     width: 4.8rem;
     height: 4.8rem;
-    border: 3px solid #fff;
+    border: 3px solid #fdf2e9;
     border-radius: 50%;
     margin-right: -1.6rem;
+}
 
+.hero-customers img:last-child {
+    margin: 0;
 }
 
 .customer-text {
@@ -144,13 +181,12 @@ body {
     font-weight: 600;
 }
 
-.highlight {
+.customer-text span {
     color: #cf711f;
+    font-weight: 700;
 }
 
-.margin-right-sm {
-    margin-right: 1.6rem;
-}
+
 
 
 
