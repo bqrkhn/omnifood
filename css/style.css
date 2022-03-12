@@ -178,13 +178,16 @@
 .featured-heading {
     text-transform: uppercase;
     margin: 6.4rem 0 3.2rem 0;
+    letter-spacing: 1px;
+    font-weight: 500;
+    color: #888;
+    text-align: center;
 }
 
 .logos {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    /*gap: 2rem;*/
     margin-bottom: 6.4rem;
 }
 
@@ -192,6 +195,9 @@
     height: 3.2rem;
     filter: brightness(0);
     opacity: 50%;
+    
+    /* To generate stroke of any color https://codepen.io/sosuke/pen/Pjoqqp*/
+    /*filter: invert(49%) sepia(94%) saturate(486%) hue-rotate(346deg) brightness(85%) contrast(89%);*/
 }
 
 
