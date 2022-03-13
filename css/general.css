@@ -76,6 +76,7 @@ body {
     font-size: 2rem;
     font-weight: 600;
     transition: all 0.3s ease-in-out;
+    display: inline-block;
 }
 
 .btn-primary:link, .btn-primary:visited {
@@ -120,8 +121,17 @@ body {
     margin-bottom: 3.6rem;
 }
 
+
+.margin-bottom-sm {
+    margin-bottom: 2.4rem;
+}
+
 .margin-top-lg {
     margin-top: 9.6rem;
+}
+
+.margin-top-md {
+    margin-top: 4rem;
 }
 
 .container {

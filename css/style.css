@@ -371,7 +371,44 @@
     font-size: 1.6rem;
 }
 
+/* Pricing */
 
+.prices {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.price-card {
+    border: 1px solid #fdf2e9;
+    border-radius: 10px;
+    padding: 4rem;
+    text-align: center;
+}
+
+.plan-name {
+    text-transform: uppercase;
+    font-size: 1.8rem;
+    color: #cf711f;
+    font-weight: 500;
+}
+
+.plan-price {
+    font-size: 5.2rem;
+    font-weight: 600;
+    color: #333;
+}
+
+.plan-price .currency {
+    font-size: 3rem;
+    margin-right: 0.5rem;
+}
+
+.plan-detail {
+    font-size: 1.4rem;
+    color: #666;
+    margin-bottom: 3rem;
+}
 
 
 
