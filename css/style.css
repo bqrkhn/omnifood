@@ -214,17 +214,17 @@
 .meals-meal {
     border-radius: 10px;
     box-shadow: 0 2.4rem 4.8rem rgb(0 0 0 / 10%);
+    overflow: hidden;
     transition: all 0.4s ease-in-out;
 }
 
 .meals-meal:hover {
+    box-shadow: 0 3.4rem 6.8rem rgb(0 0 0 / 7%);
     transform: translateY(-1.2rem);
 }
 
 .meals-meal img {
     max-width: 100%;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
 }
 
 .meal-info-container {
@@ -241,6 +241,7 @@
     border-radius: 10px;
     font-weight: 600;
     letter-spacing: 1px;
+    color: #333;
 }
 
 .yellow {
@@ -304,6 +305,10 @@
     font-size: 1.8rem;
 }
 
+.all-meals {
+    text-align: center;
+    font-size: 1.8rem;
+}
 
 
 
