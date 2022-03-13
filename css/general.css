@@ -119,8 +119,25 @@ body {
     grid-template-columns: repeat(2, 1fr);
 }
 
+.grid--3 {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.column-gap-3 {
+    grid-column-gap: 5.2rem;
+}
+
 .center {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+strong {
+    font-weight: 500;
+}
+
+ion-icon {
+    color: #e67e22;
+    /*--ionicon-stroke-width: 4rem;*/
 }
