@@ -317,9 +317,18 @@
     background-color: #fdf2e9;
 }
 
+.gallery-image {
+    overflow: hidden;
+}
+
 .gallery-image img {
     /*height: 15rem;*/
     max-width: 100%;
+    transition: all 0.3s ease-in-out;
+}
+
+.gallery-image img:hover {
+    transform: scale(1.25);
 }
 
 .testimonials-grid {
