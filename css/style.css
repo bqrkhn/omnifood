@@ -377,6 +377,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 3rem;
+    margin-top: 9.6rem;
 }
 
 .price-card {
@@ -410,6 +412,24 @@
     margin-bottom: 3rem;
 }
 
+.complete {
+    background-color: #fdf2e9;
+    position: relative;
+    overflow: hidden;
+}
+
+.complete:after {
+    content: 'Best value';
+    position: absolute;
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    font-weight: 700;
+    background-color: #ffd43b;
+    padding: 0.8rem 8rem;
+    top: 6%;
+    right: -18%;
+    rotate: 45deg;
+}
 
 
 
