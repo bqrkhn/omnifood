@@ -431,6 +431,42 @@
     rotate: 45deg;
 }
 
+.price-condition {
+    text-align: center;
+    margin-top: 3rem;
+    font-size: 1.6rem;
+    color: #777;
+}
 
+/* Feature */
 
+.features {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 3rem;
+    margin-top: 9.6rem;
+}
 
+.icon-feature {
+    height: 3rem;
+    width: 3rem;
+}
+
+.feature-fig {
+    background-color: #fdf2e9;
+    display: inline-block;
+    padding: 1rem;
+    border-radius: 50%;
+    margin-bottom: 2.4rem;
+}
+
+.feature-heading {
+    font-size: 2.4rem;
+    margin-bottom: 2rem;
+}
+
+.feature-desc {
+    font-size: 1.8rem;
+    line-height: 1.8;
+    color: #777;
+}
