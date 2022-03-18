@@ -568,15 +568,55 @@
     box-shadow: 0 0 0 0.8rem rgba(253, 242, 233, 0.49);
 }
 
+/* Footer */
 
+.horizontal-line {
+    box-shadow: 0 0 0.5px 0.5px #ccc
+}
 
+.footer {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    padding-top: 9.6rem;
+}
 
+.omnifood img {
+    height: 2.4rem;
+}
 
+.contact {
+    display: flex;
+    gap: 2rem;
+    margin-top: 2rem;
+}
 
+.contact-links {
+    color: #777;
+    width: 2.4rem;
+    height: 2.4rem;
+}
 
+.copyright {
+    font-size: 1.4rem;
+    margin-top: 6.4rem;
+    color: #777;
+    line-height: 1.8;
+}
 
+.footer-heading {
+    font-size: 1.8rem;
+    font-weight: 500;
+    margin-bottom: 3.2rem;
+}
 
+.footer-item {
+    font-size: 1.6rem;
+    color: #777;
+}
 
-
-
+.footer-items {
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+}
 
