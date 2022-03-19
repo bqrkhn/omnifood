@@ -400,6 +400,7 @@
     justify-content: center;
     gap: 3rem;
     margin-top: 9.6rem;
+    flex-wrap: wrap;
 }
 
 .price-card {

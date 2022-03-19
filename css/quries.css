@@ -133,3 +133,56 @@
         gap: 4.8rem;
     }
 }
+
+@media (max-width: 45rem) {
+    .steps-how {
+        grid-template-columns: 1fr;
+    }
+
+    .column-gap-3 {
+        grid-row-gap: 5.2rem;
+        grid-template-columns: 1fr;
+        margin: 0 4rem
+    }
+
+    .features {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .cta-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .footer {
+        grid-template-columns: 1fr;
+        grid-row-gap: 3rem;
+    }
+
+    .logos img {
+        height: 1.2rem;
+    }
+
+    .heading-primary-how {
+        font-size: 2.4rem;
+    }
+
+    .heading-tertiary-how {
+        font-size: 1.8rem;
+    }
+
+    .step-screenshot:nth-child(2) {
+        grid-row: 1;
+    }
+
+    .step-screenshot:nth-child(6) {
+        grid-row: 5;
+    }
+
+    .step-screenshot img {
+        width: 50%;
+    }
+
+    .testimonials-gap {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
