@@ -576,8 +576,9 @@
 
 .footer {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: 3fr 3fr 2fr 2fr 2fr;
     padding-top: 9.6rem;
+    margin-bottom: 9.6rem;
 }
 
 .omnifood img {
@@ -620,3 +621,7 @@
     gap: 2.4rem;
 }
 
+.link-footer {
+    color: #777;
+    text-decoration: none;
+}

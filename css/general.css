@@ -177,3 +177,7 @@ ion-icon {
     color: #e67e22;
     /*--ionicon-stroke-width: 4rem;*/
 }
+
+address {
+    font-style: normal;
+}
