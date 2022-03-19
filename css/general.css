@@ -54,6 +54,7 @@ Medium: 11px
 
 html {
     font-size: 62.5%;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -180,4 +181,16 @@ ion-icon {
 
 address {
     font-style: normal;
+}
+
+.header.sticky {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 8rem;
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: #fff;
+    z-index: 999;
 }

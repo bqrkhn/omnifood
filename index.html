@@ -10,19 +10,24 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/quries.css">
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script
+            defer
+            src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"
+    ></script>
+    <script defer type="module" src="js/app.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     <title>Omnifood</title>
 </head>
 <body>
-<header class="header nav-open">
+<header class="header">
     <a href="#" class="logo"><img src="img/omnifood-logo.png" alt="Logo"/></a>
     <nav class="main-nav">
         <ul class="main-nav-list">
-            <li><a class="main-nav-item" href="#">How it works</a></li>
-            <li><a class="main-nav-item" href="#">Meals</a></li>
-            <li><a class="main-nav-item" href="#">Testimonials</a></li>
-            <li><a class="main-nav-item" href="#">Pricing</a></li>
-            <li><a class="main-nav-item nav-cta" href="#">Try for free</a></li>
+            <li><a class="main-nav-item" href="#how">How it works</a></li>
+            <li><a class="main-nav-item" href="#meals">Meals</a></li>
+            <li><a class="main-nav-item" href="#testimonials">Testimonials</a></li>
+            <li><a class="main-nav-item" href="#pricing">Pricing</a></li>
+            <li><a class="main-nav-item nav-cta" href="#cta">Try for free</a></li>
         </ul>
     </nav>
 
@@ -40,10 +45,10 @@
                     again.
                     Tailored to your personal tastes and nutritional needs.
                 </p>
-                <a href="#" class="btn btn-primary margin-right-sm">
+                <a href="#cta" class="btn btn-primary margin-right-sm">
                     Start eating well
                 </a>
-                <a href="#" class="btn btn-secondary">
+                <a href="#how" class="btn btn-secondary">
                     Learn more
                 </a>
                 <div class="meals-delivered">
@@ -75,7 +80,7 @@
             </div>
         </div>
     </section>
-    <section class="section-how">
+    <section class="section-how" id="how">
         <div class="container">
             <span class="heading-tertiary-how">How it works</span>
             <h2 class="heading-primary-how">Your daily dose of health in 3 simple steps</h2>
@@ -118,7 +123,7 @@
             </div>
         </div>
     </section>
-    <section class="section-meals">
+    <section class="section-meals" id="meals">
         <div class="container">
             <h3 class="featured-heading">Meals</h3>
             <h2 class="heading-primary-meals">Omnifood AI chooses from 5,000+ recipes</h2>
@@ -219,7 +224,7 @@
             </div>
         </div>
     </section>
-    <section class="section-testimonials">
+    <section class="section-testimonials" id="testimonials">
         <div class="grid grid--2 testimonials-grid">
             <div class="testimonials">
                 <span class="testimonials-subheading">Testimonials</span>
@@ -306,7 +311,7 @@
             </div>
         </div>
     </section>
-    <section class="pricing">
+    <section class="pricing" id="pricing">
         <div class="container">
             <span class="heading-tertiary-how">Pricing</span>
             <h2 class="heading-primary-how">Eating well without breaking the bank</h2>
@@ -404,7 +409,7 @@
             </div>
         </div>
     </section>
-    <section class="cta">
+    <section class="cta" id="cta">
         <div class="container">
             <div class="cta-grid">
                 <div class="cta-text">
