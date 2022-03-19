@@ -30,7 +30,7 @@
     color: #cf711f;
 }
 
-.main-nav-item.nav-cta:link, .main-nav-item.nav-cta:hover {
+.main-nav-item.nav-cta:link, .main-nav-item.nav-cta:visited {
     background-color: #e67e22;
     color: #fff;
     padding: 1rem 2rem;
@@ -315,6 +315,7 @@
 .section-testimonials {
     padding: 4.8rem 1.8rem 4.8rem 4.8rem;
     background-color: #fdf2e9;
+    margin-top: 2rem;
 }
 
 .gallery-image {

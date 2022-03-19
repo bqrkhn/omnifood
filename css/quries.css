@@ -1,0 +1,85 @@
+@media (max-width: 84rem) {
+
+    .hero {
+        max-width: 120rem;
+    }
+
+    .heading-primary {
+        font-size: 4.4rem;
+    }
+
+    .testimonials-gap {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 75em) {
+    html {
+        font-size: 56.25%;
+    }
+
+    .grid {
+        column-gap: 4.8rem;
+        row-gap: 6.4rem;
+    }
+
+    .header {
+        padding: 3.2rem;
+    }
+
+    .hero {
+        gap: 4.8rem;
+    }
+
+    .main-nav-list {
+        gap: 2.4rem;
+    }
+}
+
+@media (max-width: 59rem) {
+    html {
+        font-size: 50%;
+    }
+
+    .hero {
+        grid-template-columns: 1fr;
+        padding: 0 8rem;
+    }
+
+    .hero-text-box, .hero-img-box {
+        text-align: center;
+    }
+
+    .hero-img {
+        width: 60%;
+    }
+
+    .meals-delivered {
+        justify-content: center;
+    }
+
+    .logos img {
+        height: 2.4rem;
+    }
+
+    .meal-info-container {
+        padding: 2rem
+    }
+
+    .testimonials-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .testimonials-gap {
+        grid-template-columns: repeat(6, 1fr);
+        grid-gap: 0.8rem 0.8rem;
+    }
+
+    .cta-grid {
+        grid-template-columns: 3fr 2fr;
+    }
+
+    .form-grid {
+        grid-template-columns: 1fr;
+    }
+}
