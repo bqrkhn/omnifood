@@ -424,30 +424,29 @@
                     <p class="cta-desc">Healthy, tasty and hassle-free meals are waiting for you. Start eating well
                         today. You can cancel or pause anytime. And the first meal is on us!
                     </p>
-                    <form class="cta-form">
+                    <form class="cta-form" name="sign-up" netlify>
                         <div class="grid grid--2 form-grid">
                             <label class="form-label" for="name">
                                 <span>Full Name</span>
-                                <input type="text" placeholder="John Smith" id="name">
+                                <input type="text" placeholder="John Smith" id="name" name="full-name">
                             </label>
                             <label class="form-label" for="email">
                                 <span>Email Address</span>
-                                <input type="email" placeholder="me@example.com" id="email">
+                                <input type="email" placeholder="me@example.com" id="email" name="email">
                             </label>
                             <label class="form-label" for="hear-select">
                                 <span>Where did you hear about us?</span>
                                 <select name="hear" id="hear-select">
                                     <option value="">Please choose an option:</option>
-                                    <option value="dog">Dog</option>
-                                    <option value="cat">Cat</option>
-                                    <option value="hamster">Hamster</option>
-                                    <option value="parrot">Parrot</option>
-                                    <option value="spider">Spider</option>
-                                    <option value="goldfish">Goldfish</option>
+                                    <option value="dog">Youtube</option>
+                                    <option value="cat">Github</option>
+                                    <option value="hamster">Portfolio</option>
+                                    <option value="parrot">Linkedin</option>
+                                    <option value="spider">Other</option>
                                 </select>
                             </label>
                             <div class="sign-up-btn">
-                                <button>Sign up now</button>
+                                <button type="submit">Sign up now</button>
                             </div>
                         </div>
                     </form>
